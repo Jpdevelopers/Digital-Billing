@@ -6,35 +6,9 @@
     android:layout_height="match_parent"
     tools:context="app.com.thetechnocafe.digitalbilling.SignInActivity">
 
-    <RelativeLayout
-        android:id="@+id/activity_category_relative_layout"
-        android:layout_width="match_parent"
-        android:layout_height="60dp"
-        android:background="@color/colorPrimary"
-        android:padding="16dp">
-
-        <TextView
-            android:id="@+id/activity_category_text_view"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_marginLeft="16dp"
-            android:text="Select your category"
-            android:textColor="#fff"
-            android:textSize="20sp" />
-
-        <ImageView
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_alignParentRight="true"
-            android:layout_marginRight="8dp"
-            android:src="@drawable/ic_search_white_24dp" />
-
-    </RelativeLayout>
-
     <android.support.v7.widget.RecyclerView
         android:id="@+id/activity_category_recycler_view"
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:layout_below="@id/activity_category_relative_layout"></android.support.v7.widget.RecyclerView>
+        android:layout_height="wrap_content" />
 
 </RelativeLayout>

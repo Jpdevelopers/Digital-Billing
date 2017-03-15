@@ -7,12 +7,10 @@ package app.com.thetechnocafe.digitalbilling.Models;
 public class CategoryModel {
     String category;
     int mImage;
-    int backgroundColor;
 
-    public CategoryModel(String category, int mImage, int backgroundColor) {
+    public CategoryModel(String category, int mImage) {
         this.category = category;
         this.mImage = mImage;
-        this.backgroundColor = backgroundColor;
     }
 
     public String getCategory() {
@@ -29,13 +27,5 @@ public class CategoryModel {
 
     public void setmImage(int mImage) {
         this.mImage = mImage;
-    }
-
-    public int getBackgroundColor() {
-        return backgroundColor;
-    }
-
-    public void setBackgroundColor(int backgroundColor) {
-        this.backgroundColor = backgroundColor;
     }
 }

@@ -1,10 +1,8 @@
 package app.com.thetechnocafe.digitalbilling;
 
 import android.content.Context;
-import android.graphics.Color;
 import android.os.Bundle;
 import android.support.v7.app.AppCompatActivity;
-import android.support.v7.widget.CardView;
 import android.support.v7.widget.LinearLayoutManager;
 import android.support.v7.widget.RecyclerView;
 import android.view.LayoutInflater;
@@ -30,12 +28,12 @@ public class CategoryActivity extends AppCompatActivity {
         mCategoryRecyclerView.setLayoutManager(new LinearLayoutManager(getBaseContext()));
 
         ArrayList<CategoryModel> categories = new ArrayList<>();
-        categories.add(new CategoryModel("Groceries", R.drawable.grocery, Color.parseColor("#66BB6A")));
-        categories.add(new CategoryModel("Restaurant", R.drawable.fries, Color.parseColor("#F44336")));
-        categories.add(new CategoryModel("Electric Appliances", R.drawable.television, Color.parseColor("#616161")));
-        categories.add(new CategoryModel("Books and Stationaries", R.drawable.books, Color.parseColor("#03A9F4")));
-        categories.add(new CategoryModel("Fashion & Lifestyle", R.drawable.dress, Color.parseColor("#F50057")));
-        categories.add(new CategoryModel("Vehicle", R.drawable.racing, Color.parseColor("#FF8F00")));
+        categories.add(new CategoryModel("Groceries", R.drawable.groceries));
+        categories.add(new CategoryModel("Restaurant", R.drawable.restaurant));
+        categories.add(new CategoryModel("Electric Appliances", R.drawable.appliances));
+        categories.add(new CategoryModel("Books and Stationaries", R.drawable.book));
+        categories.add(new CategoryModel("Fashion & Lifestyle", R.drawable.fashion));
+        categories.add(new CategoryModel("Vehicle", R.drawable.cars));
 
         RecyclerAdapter adapter = new RecyclerAdapter(categories, getBaseContext());
         mCategoryRecyclerView.setAdapter(adapter);
@@ -62,7 +60,6 @@ public class CategoryActivity extends AppCompatActivity {
         public void onBindViewHolder(RecyclerViewHolder holder, int position) {
             holder.mCategoryTextView.setText(categories.get(position).getCategory());
             holder.mImageView.setImageDrawable(getResources().getDrawable(categories.get(position).getmImage()));
-            holder.mCardView.setCardBackgroundColor(categories.get(position).getBackgroundColor());
         }
 
         @Override
@@ -74,14 +71,12 @@ public class CategoryActivity extends AppCompatActivity {
     public class RecyclerViewHolder extends RecyclerView.ViewHolder implements View.OnClickListener {
         TextView mCategoryTextView;
         ImageView mImageView;
-        CardView mCardView;
 
         public RecyclerViewHolder(View itemView) {
             super(itemView);
             itemView.setOnClickListener(this);
             mImageView = (ImageView) itemView.findViewById(R.id.category_recycler_view_item_image_view);
             mCategoryTextView = (TextView) itemView.findViewById(R.id.category_recycler_view_item_text_view);
-            mCardView = (CardView) itemView.findViewById(R.id.category_recycler_view_item_card_view);
         }
 
         @Override
