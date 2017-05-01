@@ -1,0 +1,12 @@
+{
+  "type": "service_account",
+  "project_id": "digital-billing",
+  "private_key_id": "3179fc379ba146ef03ee1a9c3bbb458d73a840e0",
+  "private_key": "-----BEGIN PRIVATE KEY-----\nMIIEvQIBADANBgkqhkiG9w0BAQEFAASCBKcwggSjAgEAAoIBAQDFC2b395TC524L\n5T2uWzHRoUXuOUDr/FTvzCmpLpbdYbMvWXBluKREw6LAg5XD1aQqWDxwfPQB/ACN\nGs0uO28ZmnwuaalDt7N9jji8XVXsmtCHnbZLIEGciMZe3EPQ07nqcccB2tfQURSB\npE3/CZvqJZBthgvgOrAjkngm70+LQWmO6hO2VL0K5U/5oUoCF8DNwh2+sC07vusn\ntlgQK01P1i356FVahp8Yd4lv2dOKoQV8dh0R5o67XUB4MQUuE3t3+O3uDRZtOl1E\nkiLLQESQSLZUGJVtlCm6LomK6tUD1GU3I8/Xp9NhgdhUxkNheA4POkpKxBPiZk6J\n0TgsT1ujAgMBAAECggEAN1GXK+B/DCTq+T33jh6eIusy9clvF5F0ywm3XH7u7eIC\n6zUh3/zxaTi/VWrbveoZt6Wj+jSqUHBOO08d8W/QJhD/8gvJ8G//XS1zcjaF6/Ie\nvyQgzICWyvp/LpyKEXOPi2k75KJq2loY9riJCSPKePbo0EbEyMPRNXtmbg/bdg19\nnaVz8QUVgqNMCsc+qfW9KEHzVrPcYZXW/lfAPDxwHgEFJ2Ff16L7/ngn38I7ooqD\nvdNw7KvTktbynqw88b3y2MR15v9BMOXnlCtdfAgKwRwSuEs6omDbToOJPlb7wT0a\nxy2ur7aYqLGzNz/+nE3VpNbUQ4F69Q8CdIQwDDzkuQKBgQD1CLDr2BqyeSBL9z6O\n0a+6PblpVMppFtowjATHj+W1tnZnepLSv9mjPiwh7sgVEzA+QHhuXfJuFGtS2fF0\nSLfpI7873GzVIhk7f9/EA9fOmn+W1+irwKcHFMNulDH1m4geP1yykXWhCUVGAh7Y\nwS+nEHBDwQvlvsg9UPKdVUBVfwKBgQDN3OfAd9IgKuE1n/goxXWTd70vrkuEQnic\nVEcS+I+qEgvtuo7GudvkcYH0nn7ZvaIyNnqBsLOFugN7JAR+Sx/tydIOaIsW7IAW\nQrb+ksrq9YmfbmnIAnKWQ8J1pEec8Cd9KH9c3mGcFeP/YUKySrwN9yTW6AffPYoQ\n5RJbOGLz3QKBgHteGNVlRGu/GEem/9QgNn1qPkON8Srf2pK+rFldVaYba5nF2M5K\n0WSjFM0wz4Ps2Uk+ZGQM4NYTacWY/TwysIWs/cdBv3m/ZTzTsPGbjbfziXGE2xw+\nLtod1heCfXTPDcVM2Xr+SV7+r+YDg0xWV4uhdyRluXu+hkp4yu3z0iQ5AoGAUv76\n2Ff2eU2QWoRSEm35hyjBN1X30CzUX4KC3R0lHpYEBSYvpeMMyj8Q+8Ris/qGR+Q6\n48qPthxWhvDwdtJm3wF9FJ4FZYqX4WGoUV5xPOUdRQ/IygBinj5XSgKfdKBF62nG\nX3SwubMBptZZg3Qp+R9o1NPbSJ+Q6FrSWcCT9GkCgYEAgPCVMhFC6k9JlIHUgO1q\nFTRraKNBJW8YpufZXtTMVPvvSUjKJrfsnDe27rZ2hoTn/xOHQBqOcJiWWW8ZhhPa\nVtya6zEfc1JPMvA+pTPoj/wIUYVVdBRkjbieeg1+Q8E2yy/Yas4cJLtnN8G5Y9Jx\nvbSLYlSD7VITBi8jhrqPcWc=\n-----END PRIVATE KEY-----\n",
+  "client_email": "firebase-adminsdk-m858a@digital-billing.iam.gserviceaccount.com",
+  "client_id": "116992326607187699039",
+  "auth_uri": "https://accounts.google.com/o/oauth2/auth",
+  "token_uri": "https://accounts.google.com/o/oauth2/token",
+  "auth_provider_x509_cert_url": "https://www.googleapis.com/oauth2/v1/certs",
+  "client_x509_cert_url": "https://www.googleapis.com/robot/v1/metadata/x509/firebase-adminsdk-m858a%40digital-billing.iam.gserviceaccount.com"
+}
